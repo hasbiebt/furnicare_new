@@ -32,9 +32,6 @@
 				<a class="navbar-brand" href="index.html">
 					<img src="assets/Logo Furnicare.png" alt="..." width="150">
 				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      			<!-- 	<span class="navbar-toggler-icon"></span> -->
-      			<!-- we don't need to use this ^ otherwise the toggle button will always showed up -->
     			</button>
     			<div class="navbar-expand-lg" id="navbarNavAltMarkup">
       				<div class="navbar-nav">

@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (isset($_POST['login'])) {
     include_once $_SERVER['DOCUMENT_ROOT'].'/furnicare_new/database/user-dbop.php';
     $objUser = new User();

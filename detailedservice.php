@@ -65,7 +65,7 @@
 				<div class="navbar-expand-lg" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link mx-3" href="#">Services</a>
-						<a class="nav-link mx-3" href="profile.php" target="_blank">Hi, <?php $user_data['full_name']?></a>
+						<a class="nav-link mx-3" href="profile.php" target="_blank">Hi, <?php echo $user_data['full_name']?></a>
 						<!-- Menu lists -->
 					</div>
 					<!-- Menu container -->

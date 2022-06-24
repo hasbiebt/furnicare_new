@@ -36,10 +36,10 @@ if (isset($_POST['login'])) {
                 <h1 class="welcome-font">Welcome!</h1>
                 <form name="login-form" action="login.php" method="POST">
                     <div class="mb-3">
-                      <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                     </div>
                     <div class="mb-3">
-                      <input placeholder="Password" type="password" class="form-control" id="exampleInputPassword1">
+                      <input placeholder="Password" type="password" class="form-control" id="exampleInputPassword1" name="password">
                     </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
