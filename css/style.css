@@ -1,0 +1,151 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: #57523E
+}
+
+.nav-link{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nav-link:visited{
+	color: black;
+}
+
+.dropdown-menu{
+	border-radius: 0;
+}
+
+.btn{
+	font-size: 18px;
+	font-weight: 400;
+	width: auto;
+	background-color: #797051;
+	border-radius: 0;
+	border-color: transparent;
+	margin-left: 25px;
+}
+
+.btn:link{
+	background-color: #A39872;
+}
+
+.btn:visited{
+	background-color: red;
+}
+
+.btn:hover{
+	background-color: #504C3E;
+	border-color: transparent;
+}
+
+#row-p1>*{
+	padding-left: 0;
+}
+
+.col-5{
+	padding-right: 0;
+	padding-left: 80px;
+	text-align: right;
+}
+
+.col-5>p{
+	text-align: right;
+}
+
+.caption-main{
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.25;
+	margin-top: 350px;
+}
+
+.caption-italic{
+	font-size: 20px;
+	font-style: italic;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#livingroom{
+	height: 700px;
+	margin-top: 70px;
+}
+
+#services{
+	background-color: #FFEFDC;
+}
+
+#span-header{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.content-service{
+	padding-left: 55px;
+}
+
+#bg-white{
+	background-color: white;
+	height: 475px;
+	width: 810px;
+}
+
+.img{
+	max-width: 116%;
+}
+
+#bg-white>col-4{
+	padding-left: 0;
+}
+
+#row-p2, #row-p3, #row-p4{
+	margin-bottom: 30px;
+}
+
+#bg-white:nth-child(1){
+	padding-top: 100px;
+	padding-left: 40px;
+/*	line-height: 1.7;*/
+}
+
+#bg-white>h3, p{
+	padding-top: 20px;
+}
+
+.btn#services-button{
+	margin-left: 0;
+	margin-top: 35px;
+	width: 150px;
+}
+
+.blog-content{
+	margin-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: rgba(255, 235, 212, 1);
+}
+.gambar-content{
+width: 350px;
+}
+.background-content1{
+	padding-left: 285px;
+	padding-right: 50px;
+}
+.background-content2{
+	padding-right: 285px;
+	padding-left: 50px;
+}
+.text-content{
+	padding-top: 25px;
+}
+.text-latestpost{
+	color: rgba(87, 82, 62, 1);
+	padding-bottom: 25px;
+}
